@@ -18,7 +18,7 @@ public void createRide(int id, String Source, String destiantion, int seats, dou
     {
         List<Ride> availableRide = new ArrayList<>();
         for(Ride : rideslist) {
-            if (rides.source.equals(source) && ride.destination.equals(destination) && ) {
+            if (rides.source.equals(source)) {
                 return availableRide;
             }
         }
@@ -26,3 +26,4 @@ public void createRide(int id, String Source, String destiantion, int seats, dou
 
 
 }
+
